@@ -1,6 +1,6 @@
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
-<img src="https://github.com/Massimo-Petralia/form-product/assets/44479460/783e166e-b09f-43de-babf-1c61c84e21a9" width="400" height="800">
+<img alt="Hello i'm on Android !" src="https://github.com/Massimo-Petralia/form-product/assets/44479460/783e166e-b09f-43de-babf-1c61c84e21a9" width="400" height="800">
 
 # Getting Started
 
