@@ -2,8 +2,8 @@ import {useEffect, useState} from 'react';
 import {Product} from '../../models/models';
 import {Text, Input} from '@rneui/themed';
 import {View} from 'react-native';
-import {ImagesProductPreview} from '../../components/images-product-preview/images-product-preview';
-import {FormProductControls} from '../../components/form-product-controls/form-product-controls';
+import {ImagesPreview} from '../../components/images-preview/images-preview';
+import {FormControls} from '../../components/form-controls/form-controls';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 
 export const FormProductView = ({
@@ -72,8 +72,8 @@ export const FormProductView = ({
           label="Price"
         />
       </View>
-      <ImagesProductPreview onImages={onImages} />
-      <FormProductControls
+      <ImagesPreview onImages={onImages} />
+      <FormControls
         onCreateProduct={onCreateProduct}
         formProduct={formProduct}
         images={images}

@@ -4,7 +4,7 @@ import FontAwesome from 'react-native-vector-icons/FontAwesome';
 import {style} from '../../styles/style';
 import {Product} from '../../models/models';
 
-export const FormProductControls = ({
+export const FormControls = ({
   onCreateProduct,
   formProduct,
   images,

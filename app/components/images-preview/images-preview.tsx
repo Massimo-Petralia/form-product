@@ -9,7 +9,7 @@ import RNFS from 'react-native-fs';
 import {style} from '../../styles/style';
 import {OverlayNotification} from '../overlay-notification/overlay-notification';
 
-export const ImagesProductPreview = ({
+export const ImagesPreview = ({
   onImages,
 }: {
   onImages: (images: string[]) => void;
